@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY</title>
+
+
+    <!-- incluir JQUERY descargando el archivo -->
+    <script src="jquery-3.6.0.js"></script>
+
+
+   
+      
+    <!-- PARA EL EVENTCLASS -->
+    <!-- <style>
+        .borde{
+
+            border:1px dashed blue;
+        }
+    </style> -->
+    <!-- ------------------------ -->
+
+    <!--PARA EL EJEMPLO EVENTSLIDE -->
+
+    <style>
+        /* para que nos muestre el cursor estilo manito */
+        #mostrar{  
+            cursor: pointer; 
+        }
+        
+        /* display es para que este oculto al ejecutarse */
+        #textoLorem{
+            display: none;
+            background-color: blue;
+        }
+
+    </style>
+    
+
+
+
+
+
+
+
+
+</head>
+<body>
+<!-- ejemplo con JAVASCRIPT y simplicado con JQUERY -->
+<!-- <script>
+    //con JS
+    var nombre= document.getElementById('span');
+
+    //con jquery: se simplica todo con signo $
+    //cuando utilizamos el signo $ significa que vamos hacer uso JQUERY
+    var nombre= $('#span');
+</script> -->
+
+<!-- EJEMPLO DE ETIQUETAS Y ATRIBUTOS --------------->
+
+ <!-- <p class="parrafo">hola soy el parrafo 1</p>
+ <p class="parrafo">hola soy el parrafo 2</p> -->
+
+ <!-- no es necesario colocarle ID o class -->
+
+ <!-- <span >Texto del span</span>
+ <a href="http://google.es" title="google">Google</a> -->
+
+ <!-- ----------------------------------------------->
+ 
+ <!-- EJEMPLO DE EVENT --------------->
+
+ <!-- <button id="btnMostrar">Mostrar</button>
+ <button id="btnOcultar">Ocultar</button>
+ <div id="texto"></div>
+
+ <button id="btn"></button>
+ <div id="texto1">Soy un parrafo</div> -->
+
+<!-- EJEMPLO DE EVENTCLASE --------------->
+
+ <!-- <p class="parrafo"> PARRAFO 1</p>
+ <p class="parrafo"> PARRAFO 2</p>  -->
+
+
+ <!-- EJEMPLO DE EVENTSLIDE --------------->
+
+ <h2 id="mostrar">PULSAR</h2>
+<p id="textoLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, tenetur vero necessitatibus fuga labore expedita adipisci ex
+   dolorum fugiat a earum quasi vel, molestiae recusandae mollitia qui asperiores dolorem consectetur!</p>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+<!---------------- SCRIPT EXTERNOS--------->
+
+<!-- <script src="selectorID.js"></script>  -->
+
+<!-- <script src="etiquetas-atributos.js"></script> -->
+
+<!-- <script src="event.js"></script> -->
+
+<!-- <script src="eventClases.js"></script> -->
+
+<script src="eventSlide.js"></script>
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------- -->
+<!-- Ejemplo de JQUERY (comprando si Jquery esta funcionando)-->
+<script>
+    //document.ready es el punto de inicio de toda aplicacion de JS 
+    //porque este es cuando el documento del DOM este cargado
+    $(document).ready(function(){
+       console.log('Jquery funcionando');
+    })
+</script>
+
+</body>
+</html>
